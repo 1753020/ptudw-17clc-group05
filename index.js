@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 //set static folder
-app.use(express.static(__dirname + '/SavingJars'));
+app.use(express.static(__dirname + '/index.html'));
 
 //start server
 app.set('port', process.env.PORT || 3000);
